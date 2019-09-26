@@ -1,0 +1,46 @@
+.app {
+    margin-top: 20px;
+}
+
+.task-container {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 12px;
+}
+.task__edited-info {
+    font-size: 12px;
+    justify-content: flex-end;
+}
+
+.pagination > a.btn.btn-primary {
+    height: 38px;
+    margin-right: 8px;
+}
+
+.sort-links a {
+    margin-right: 30px;
+}
+
+.help-block .error-block p {
+    color: #f72f2f;
+}
+
+.help-block .error-block {
+    flex-direction: column;
+    padding-left: 16px;
+}
+
+.login-form {
+    justify-content: center;
+}
+
+#login-form {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.edit-task {
+    justify-content: flex-end;
+}

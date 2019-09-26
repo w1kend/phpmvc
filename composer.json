@@ -1,0 +1,12 @@
+{
+    "name": "sergey/phpmvc",
+    "require": {
+        "jasongrimes/paginator": "~1.0",
+        "delight-im/auth": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\core\\": "src/core/"
+        }
+    }
+}
