@@ -13,7 +13,7 @@
             </div>
             <div class="form-group">
                 <label for="text">Текст задачи</label>
-                <input type="text" class='form-control' name="text" value='<?=$task['text']?>' required>
+                <input type="text" class='form-control' name="text" value='<?=htmlentities($task['text'])?>' required>
             </div>
             <div class="form-group">
                 <label for="completed">Выполнена</label>
